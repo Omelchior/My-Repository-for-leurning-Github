@@ -1,0 +1,15 @@
+# MNIST met TensorFlow in JupyterLab
+
+Dit project laadt de MNIST dataset, traint een model in TensorFlow/Keras en biedt een (optionele) teken-UI om eigen cijfers te voorspellen.
+
+## Vereisten
+- Python 3.11 (aanrader)
+- JupyterLab
+- TensorFlow
+
+## Installatie (conda)
+```bash
+conda create -n tf-mnist python=3.11 -y
+conda activate tf-mnist
+pip install --upgrade pip
+pip install jupyterlab tensorflow
